@@ -1,0 +1,101 @@
+# AdWiseAI: Intelligent Ad Performance Analysis and Optimization
+
+**Project Status:** Active
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+## Project Overview
+
+**AdWiseAI** is an end-to-end system designed to enhance digital advertising strategies by leveraging Large Language Models (LLMs) and robust data analytics. The platform ingests advertising campaign data, analyzes performance metrics, generates actionable insights, and suggests optimized ad copy. By incorporating user feedback, AdWiseAI continuously refines its models to ensure up-to-date and effective recommendations.
+
+## Features
+
+- **Data Ingestion:** Seamlessly import ad campaign data from various sources, including CSV files and APIs.
+- **Performance Analysis:** Compute key metrics such as Click-Through Rate (CTR), Cost Per Click (CPC), and Return on Investment (ROI).
+- **Insight Generation:** Utilize LLMs to summarize campaign performance and identify trends.
+- **Ad Copy Optimization:** Generate and suggest improved ad copy tailored to target audiences.
+- **Interactive Q&A:** Engage with the system through natural language queries about campaign performance.
+- **Feedback Loop:** Collect user feedback to enhance model accuracy and relevance over time.
+- **Monitoring & Retraining:** Implement monitoring tools and retraining pipelines to maintain optimal performance.
+
+## Tech Stack
+
+- **Data Processing:** [Databricks](https://databricks.com/)
+- **Storage:** [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
+- **LLM Integration:** [Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/)
+- **Backend API:** [FastAPI](https://fastapi.tiangolo.com/)
+- **User Interface:** [Streamlit](https://streamlit.io/) (optional)
+- **Feedback Storage:** [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/)
+- **Model Training:** [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+- **Monitoring:** [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/)
+- **Deployment:** [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
+- **CI/CD:** [GitHub Actions](https://github.com/features/actions)
+
+## Getting Started
+
+### Prerequisites
+
+- [Python 3.8+](https://www.python.org/downloads/)
+- [Databricks Account](https://databricks.com/try-databricks)
+- [Azure Subscription](https://azure.microsoft.com/en-us/free/)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+**Clone the Repository:**
+
+```bash
+git clone https://github.com/dejong-LLMOPS/adwiseai.git
+cd adwiseai
+
+
+adwiseai/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── data_ingestion/
+│   └── fetch_campaign_data.py
+├── data_processing/
+│   └── process_data.py
+├── llm/
+│   ├── generate_insights.py
+│   ├── rewrite_ad_copy.py
+│   └── ad_qa_bot.py
+├── feedback/
+│   └── log_feedback.py
+├── retraining/
+│   ├── prepare_data.py
+│   └── azureml_pipeline.yaml
+├── api/
+│   └── main.py
+├── app/
+│   └── app.py
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── requirements.txt
+└── Dockerfile
+
+
+
+Acknowledgments:
+Databricks
+Azure
+OpenAI
+FastAPI
+Streamlit
+```
