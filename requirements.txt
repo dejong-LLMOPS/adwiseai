@@ -4,7 +4,6 @@ scikit-learn
 fastapi
 uvicorn
 openai 
-openai
 python-dotenv
 streamlit
 mlflow
@@ -12,3 +11,4 @@ matplotlib
 seaborn
 azure-identity
 azure-storage-file-datalake
+azure-ai-openai

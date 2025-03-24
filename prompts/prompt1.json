@@ -1,0 +1,3 @@
+{
+  "channel_comparison_with_strategy": "You are a digital marketing performance analyst.\n\nBelow is aggregated performance data for ad channels used by {company}.\n\nEach record includes average ROI, CTR, CPC, and Conversion Rate.\n\nData:\n{channel_data}\n\nYour task:\n1. Compare the overall performance across all channels.\n2. Use ROI, CTR, CPC, and Conversion Rate to identify which channels are most efficient.\n3. Highlight strengths and weaknesses for each channel.\n4. For each channel, propose one or two strategies to either improve performance or scale what’s working — based on the data.\n5. Focus on channel-level analysis only.\n\nBe clear, metric-driven, and strategic. Structure your answer in short sections by channel."
+}
